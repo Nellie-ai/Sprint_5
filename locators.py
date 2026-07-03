@@ -16,4 +16,7 @@ class Locators:
     LOGOUT_BUTTON=(By.XPATH,".//button[text()='Выход']")
     BUNS_SECTION=(By.XPATH,".//span[text()='Булки']")
     SAUCES_SECTION=(By.XPATH,".//span[text()='Соусы']")
-    FILLINGS_SECTION=(By.XPATH,".//span[text()='Начинки']") 
+    FILLINGS_SECTION=(By.XPATH,".//span[text()='Начинки']")
+    BUNS_ACTIVE=(By.XPATH, ".//div[contains(@class,'tab_tab_type_current')]/span[text()='Булки']")
+    SAUCES_ACTIVE=(By.XPATH, ".//div[contains(@class, 'tab_tab_type_current')]/span[text()='Соусы']")
+    FILLINGS_ACTIVE=(By.XPATH, ".//div[contains(@class, 'tab_tab_type_current')]/span[text()='Начинки']") 
